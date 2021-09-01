@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>Weather Dashboard</header>
+    <input id="input" type="text" placeholder="city name">
+    <button id="button" onclick="getapi()">submit</button>
+
+    <ul class="weatherinfo">
+
+        <p id="cityname">city name and date</p>
+        <p id="tempature">tempature</p>
+        <p id="humidity">humidity</p>
+        <p id="wind-speed">wind speed</p>
+
+    </ul>
+    <div class="forcast">
+        <div class="dayblock">
+            <p>day 1</p>
+            <p>tempature</p>
+        </div>
+        <div class="dayblock">
+            <p>day 2</p>
+            <p>tempature</p>
+
+        </div>
+        <div class="dayblock">
+            <p>day 3</p>
+            <p>tempature</p>
+        </div>
+        <div class="dayblock">
+            <p>day 4</p>
+            <p>tempature</p>
+        </div>
+        <div class="dayblock">
+            <p>day 5</p>
+            <p>tempature</p>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/script.js"></script>
+
+</html>
